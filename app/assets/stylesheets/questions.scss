@@ -1,0 +1,65 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// $blue: blue;
+
+body {
+  background: #87aaff;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+  text-align: center;
+  background: #cef4fb;
+  border: 2px solid blue;
+  border-radius: 25px;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  width: 10vw;
+  border-radius: 50%;
+}
+
+.card {
+  width: 500px;
+  background-size: contain;
+  height: 10vw;
+  border-radius: 50%;
+  display: inline-block;
+  position: center;
+}
+
+
+button {
+  background-color: #E168F7;
+  border: none;
+  color: white;
+  text-shadow: 0 2px 0 #00ecff, 0 -4px 0 #ff4045;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 6px;
+  margin: 15px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: blue;
+}
+
+#question {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px
+}
+
+#answer {
+  font-family: 'Roboto', sans-serif;
+}
